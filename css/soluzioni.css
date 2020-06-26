@@ -30,3 +30,28 @@
   transform: scale(0.5);
   transition: 1s;
 }
+
+.ex-6-img:hover {
+  filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+  filter: grayscale(1);
+  filter: sepia(0.5);
+  transition: 3s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(0.8);
+  filter: sepia(0.5);
+  transition: 3s;
+  border-radius: 15%;
+}
+
+.ex-9-img:hover {
+  filter: grayscale(0.8);
+  filter: sepia(0.5);
+  transition: 3s;
+  border-radius: 15%;
+  transform: scale(1.5);
+}
